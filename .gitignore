@@ -1,1 +1,18 @@
 venv/ 
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+
+# VS Code workspace settings
+.vscode/
